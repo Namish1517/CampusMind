@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://campusmind-bmup.onrender.com/api',
+  baseURL: 'https://campusmind-1-hzwv.onrender.com/api',
 });
 
 api.interceptors.request.use((config) => {
